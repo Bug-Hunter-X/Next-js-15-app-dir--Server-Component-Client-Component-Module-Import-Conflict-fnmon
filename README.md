@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Next.js 15's app directory when dealing with server and client components sharing modules.  A server component attempts to import a module that indirectly depends on a client component, leading to runtime issues. The solution involves refactoring to ensure clear separation of server-side and client-side logic and dependencies.
